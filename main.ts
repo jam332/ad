@@ -1,18 +1,185 @@
 input.onButtonPressed(Button.A, function () {
-    basic.showIcon(IconNames.No)
-    music.play(music.stringPlayable("C D C C5 C C C C5 ", 120), music.PlaybackMode.UntilDone)
+    if (false) {
+        basic.showIcon(IconNames.No)
+        music.play(music.stringPlayable("C D C C5 C C C C5 ", 120), music.PlaybackMode.UntilDone)
+    } else {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # . . .
+            # # . # .
+            . . # # .
+            # # . # #
+            # # . # #
+            `)
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # . .
+            # . # . .
+            # # # . .
+            # . # . .
+            # . . # .
+            `)
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . # #
+            # . # . #
+            # # . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.clearScreen()
+        music.rest(music.beat(BeatFraction.Breve))
+        basic.showString("time up you loose")
+    }
 })
 function doSomething () {
     return
 }
 input.onButtonPressed(Button.B, function () {
-    basic.showString("carect")
-    basic.showString("2.0")
-    basic.clearScreen()
-    basic.showIcon(IconNames.Heart)
-    basic.showIcon(IconNames.Happy)
-    basic.clearScreen()
-    basic.showIcon(IconNames.Diamond)
-    basic.clearScreen()
+    if (true) {
+        basic.showString("carect")
+        basic.showString("2.0")
+        basic.clearScreen()
+        basic.showIcon(IconNames.Heart)
+        basic.showIcon(IconNames.Happy)
+        basic.showNumber(0)
+        basic.clearScreen()
+        basic.showIcon(IconNames.Diamond)
+        basic.clearScreen()
+    } else {
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # . . .
+            # # . # .
+            . . # # .
+            # # . # #
+            # # . # #
+            `)
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # . .
+            # . # . .
+            # # # . .
+            # . # . .
+            # . . # .
+            `)
+        basic.showLeds(`
+            # . . . .
+            # . . . .
+            # . . . .
+            # . . . .
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.showLeds(`
+            # . . . #
+            . # . # .
+            . . # . .
+            . # . # .
+            # . . . #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # . . # #
+            # . # . #
+            # # . . #
+            # # # # #
+            `)
+        basic.showLeds(`
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            # # # # #
+            `)
+        basic.clearScreen()
+        music.rest(music.beat(BeatFraction.Breve))
+        basic.showString("time up you loose")
+    }
 })
 basic.showString("1+1=?")
