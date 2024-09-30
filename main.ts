@@ -85,9 +85,9 @@ input.onButtonPressed(Button.A, function () {
         basic.showString("time up you loose")
     }
 })
-function doSomething () {
-    return
-}
+input.onButtonPressed(Button.AB, function () {
+    basic.showString("1+1=?")
+})
 input.onButtonPressed(Button.B, function () {
     if (true) {
         basic.showString("carect")
