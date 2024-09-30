@@ -98,6 +98,7 @@ input.onButtonPressed(Button.B, function () {
         basic.showNumber(0)
         basic.clearScreen()
         basic.showIcon(IconNames.Diamond)
+        basic.showString("1+1=2")
         basic.clearScreen()
     } else {
         basic.showLeds(`
